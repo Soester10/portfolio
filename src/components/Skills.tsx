@@ -7,6 +7,7 @@ import {
   faLinux,
   faGitAlt,
   faAws,
+  faDocker,
 } from "@fortawesome/free-brands-svg-icons";
 import { faBolt, faDatabase } from "@fortawesome/free-solid-svg-icons";
 import langLogo from "../assets/langLogo.jpeg";
@@ -67,16 +68,20 @@ const Skills = () => {
           icon: "",
         },
         {
-          name: "Git",
-          icon: faGitAlt,
-        },
-        {
           name: "FastAPI",
           icon: faBolt,
         },
         {
           name: "PyGame",
           icon: "",
+        },
+        {
+          name: "Git",
+          icon: faGitAlt,
+        },
+        {
+          name: "Docker",
+          icon: faDocker,
         },
       ],
     },
