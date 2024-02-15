@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experiences from "./components/Experiences";
 import Resume from "./components/Resume";
+import Certs from "./components/Certs";
 
 function App() {
   return (
@@ -39,6 +40,12 @@ function App() {
 
       <div>
         <Projects />
+      </div>
+
+      <hr className="linec"></hr>
+
+      <div>
+        <Certs />
       </div>
 
       <hr className="linec"></hr>

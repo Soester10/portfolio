@@ -2,7 +2,7 @@ import resume from "../assets/Hariharan_Resume.pdf";
 
 const Resume = () => {
   return (
-    <div className="mc6">
+    <div className="mc7">
       <div
         className="container ff resume"
         style={{ fontFamily: "Gill Sans", fontSize: 24 }}
