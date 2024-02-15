@@ -1,4 +1,3 @@
-import React from "react";
 import googleITLogo from "../assets/googleITLogo.png";
 import azureLogo from "../assets/azureLogo.png";
 import courseraLogo from "../assets/courseraLogo.png";
