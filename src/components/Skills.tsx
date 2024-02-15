@@ -8,8 +8,11 @@ import {
   faGitAlt,
   faAws,
   faDocker,
+  faGoogle,
+  faMicrosoft,
 } from "@fortawesome/free-brands-svg-icons";
 import { faBolt, faDatabase } from "@fortawesome/free-solid-svg-icons";
+import { faStar } from "@fortawesome/free-regular-svg-icons";
 import langLogo from "../assets/langLogo.jpeg";
 import toolsLogo from "../assets/toolLogo.jpeg";
 import dbLogo from "../assets/dbLogo.jpeg";
@@ -95,8 +98,16 @@ const Skills = () => {
           icon: faDatabase,
         },
         {
+          name: "NoSQL",
+          icon: "",
+        },
+        {
           name: "PostgreSQL",
           icon: "",
+        },
+        {
+          name: "Spark",
+          icon: faStar,
         },
       ],
     },
@@ -118,8 +129,12 @@ const Skills = () => {
           icon: faAws,
         },
         {
-          name: "GCP",
-          icon: "",
+          name: "Google Cloud",
+          icon: faGoogle,
+        },
+        {
+          name: "Azure",
+          icon: faMicrosoft,
         },
       ],
     },
