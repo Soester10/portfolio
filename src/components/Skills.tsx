@@ -11,7 +11,7 @@ import {
   faGoogle,
   faMicrosoft,
 } from "@fortawesome/free-brands-svg-icons";
-import { faBolt, faDatabase } from "@fortawesome/free-solid-svg-icons";
+import { faBolt, faDatabase, faGear } from "@fortawesome/free-solid-svg-icons";
 import { faStar } from "@fortawesome/free-regular-svg-icons";
 import langLogo from "../assets/langLogo.jpeg";
 import toolsLogo from "../assets/toolLogo.jpeg";
@@ -86,6 +86,14 @@ const Skills = () => {
           name: "Docker",
           icon: faDocker,
         },
+        {
+          name: "Terraform",
+          icon: "",
+        },
+        {
+          name: "Kubernetes",
+          icon: faGear,
+        },
       ],
     },
 
@@ -108,6 +116,10 @@ const Skills = () => {
         {
           name: "Spark",
           icon: faStar,
+        },
+        {
+          name: "Hadoop",
+          icon: "",
         },
       ],
     },
