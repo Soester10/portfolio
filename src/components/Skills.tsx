@@ -11,7 +11,13 @@ import {
   faGoogle,
   faMicrosoft,
 } from "@fortawesome/free-brands-svg-icons";
-import { faBolt, faDatabase, faGear } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBolt,
+  faDatabase,
+  faGamepad,
+  faGear,
+  faLeaf,
+} from "@fortawesome/free-solid-svg-icons";
 import { faStar } from "@fortawesome/free-regular-svg-icons";
 import langLogo from "../assets/langLogo.jpeg";
 import toolsLogo from "../assets/toolLogo.jpeg";
@@ -76,7 +82,7 @@ const Skills = () => {
         },
         {
           name: "PyGame",
-          icon: "",
+          icon: faGamepad,
         },
         {
           name: "Git",
@@ -93,6 +99,14 @@ const Skills = () => {
         {
           name: "Kubernetes",
           icon: faGear,
+        },
+        {
+          name: "Kafka",
+          icon: "",
+        },
+        {
+          name: "GraphQL",
+          icon: "",
         },
       ],
     },
@@ -120,6 +134,10 @@ const Skills = () => {
         {
           name: "Hadoop",
           icon: "",
+        },
+        {
+          name: "MongoDB",
+          icon: faLeaf,
         },
       ],
     },

@@ -24,7 +24,8 @@ const Experiences = () => {
         &#8608; My work extends to conducting thorough statistical analyses
         across multiple repositories and programming languages, employing a
         combination of Clojure and CodeQL implementations to extract insights
-        from repositories such as Git and Linux, and languages like C and C++.
+        from repositories such as Git, Emacs, and Linux, and languages like C
+        and C++.
       </p>
     );
   };
