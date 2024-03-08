@@ -18,7 +18,8 @@ const Experiences = () => {
         500% speed improvement over previous implementations. Additionally, I
         actively contribute to the refinement of existing classifiers in Clojure
         through the integration of new features via CodeQL queries and
-        predicates.
+        predicates, showcasing a remarkable 20% enhancement in both accuracy and
+        coverage.
         <br></br>
         <br></br>
         &#8608; My work extends to conducting thorough statistical analyses
@@ -62,6 +63,14 @@ const Experiences = () => {
         scaling multiprocessing web crawlers, which automated the extraction of
         ESG-relevant data for a staggering 2.5 million companies, constituting
         over 60% of the company's internet-based data.
+        <br></br>
+        <br></br>
+        &#8608; I strategically coordinated the deployment and distribution of
+        web crawlers across multiple Google Cloud VM instances to extract data
+        efficiently, resulting in a significant one-month reduction in data
+        extraction initiatives for the company. This achievement was made
+        possible through meticulous resource optimization and effective
+        deployment strategies.
         <br></br>
         <br></br>
         &#8608; Additionally, I played a pivotal role in enhancing efficiency

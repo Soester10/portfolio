@@ -13,16 +13,18 @@ const Projects = () => {
   const sohDesc = () => {
     return (
       <p>
-        A dynamic social app designed to foster vibrant user engagement through
-        innovative features such as polling, live discussions, and friend
-        connections. With a robust chat system facilitating real-time
-        communication and group chats for exclusive discussions, users can
-        immerse themselves in in-depth conversations. Unique elements like timed
-        result delays and live comment sections add an extra layer of
-        excitement, encouraging interaction and sparking debates. Streamlined
-        deployment via AWS Elastic Beanstalk and Travis ensures seamless access,
-        while PostgreSQL efficiently manages user profiles and interaction
-        history for an enhanced user experience.
+        a dynamic social app engineered to ignite vibrant user engagement and
+        meaningful connections. Our platform redefines interaction with
+        innovative features like polling, live discussions, and seamless friend
+        connections, captivating over 500 active users. With a robust chat
+        system fueled by Redis Cache memory, we've slashed latency by 50%,
+        ensuring secure and swift communication for both individual chats and
+        group discussions. Harnessing Ajax techniques, we've revolutionized
+        content updates, delivering a seamless user experience with a remarkable
+        30% boost in performance. Our streamlined deployment process via AWS
+        Elastic Beanstalk and Travis guarantees swift access, while PostgreSQL
+        efficiently manages user profiles and interaction history, enhancing
+        user satisfaction.
       </p>
     );
   };
@@ -30,16 +32,16 @@ const Projects = () => {
   const brvitDesc = () => {
     return (
       <p>
-        A State-of-the-art Vision Transformer model tailored for Bokeh
-        Rendering, designed to enhance image subject focus with precision. Built
-        upon the foundation of the open-source DPT model, this specialized
-        application integrates encoder, reassembly, and fusion layers to achieve
-        exceptional results. With superior performance showcased on the
-        challenging EBB! Dataset, it surpasses previous benchmarks, setting a
-        new standard in image rendering technology. Notably, its innovative
-        design eliminates the need for a separate depth estimation model,
-        streamlining computation and significantly reducing processing time for
-        unparalleled efficiency.
+        A State-of-the-art Vision Transformer model tailored for Bokeh Built
+        upon the esteemed DPT model, our solution seamlessly integrates advanced
+        encoder, reassembly, and fusion layers, delivering extraordinary
+        results. By eliminating the need for a separate depth estimation model,
+        we've streamlined computation and drastically reduced processing time,
+        achieving an impressive 18% enhancement in subject clarity. With
+        state-of-the-art performance validated on the challenging EBB! Dataset,
+        boasting a remarkable 1.32% improvement in the SSIM metric, our Vision
+        Transformer sets a new standard in image processing technology, ushering
+        in unparalleled clarity and precision.
       </p>
     );
   };
@@ -47,15 +49,16 @@ const Projects = () => {
   const firchatDesc = () => {
     return (
       <p>
-        An immersive platform tailored for passionate movie aficionados,
-        fostering dynamic discussions within a vibrant community. With private
-        rooms showcasing comprehensive movie details sourced from the OMDB API,
-        users can engage in networking, share reviews, and indulge in one-on-one
-        conversations. Powered by Flask REST framework on AWS for backend
-        support and React on Firebase for frontend interface, this app
-        guarantees seamless performance. Enhanced data security and real-time
-        chat capabilities through Cloud Firestore Storage and Firebase Security
-        Functions ensure a safe and engaging experience for all users
+        An immersive platform tailored exclusively for passionate movie
+        aficionados. Our innovative design features private rooms curated with
+        comprehensive movie details sourced directly from the OMDB API,
+        empowering users to network, share reviews, and indulge in one-on-one
+        conversations. Leveraging Firestore's NoSQL structure, we've achieved a
+        significant 2x improvement in read operations speed, ensuring swift
+        access to information. With enhanced data security measures and
+        real-time chat capabilities facilitated by Cloud Firestore Storage and
+        Firebase Security Functions, we guarantee a safe and engaging experience
+        for every user.
       </p>
     );
   };
